@@ -27,16 +27,13 @@ Special Feature
 
 Setup Instructions
 
-1. Clone the Repository:BASH1git clone https://github.com/yourusername/attendance-tracking-system.git
+1. Clone this Repository
 2. cd attendance-tracking-system
 3. Install Backend Dependencies:cd backend
 4. npm install
 5. Install Frontend Dependencies:cd frontend
 6. npm install
-7. Run Backend:cd ../backend
-8. npm run dev
-9. Run Frontend:cd ../frontend
-   10.npm start
+7. After insatlling you need to start the docker in your local then gave below command
 
 Configuration
 
@@ -45,7 +42,9 @@ Configuration
 Docker Deployment
 
 1. Build and Run Docker Containers:Ensure Docker is running and execute:
-   docker-compose up --build
+   comand:
+   docker-compose build
+   docker-compose up
 2. Access the Application:Open your browser and visit   
    http://localhost:3000 for the frontend interface.
 
